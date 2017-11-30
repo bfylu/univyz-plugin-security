@@ -7,6 +7,38 @@
     <groupId>cn.univyz</groupId>
     <artifactId>univyz-plugin-security</artifactId>
     <version>1.0.0</version>
+    <!-- 安全控制框架 -->
 
+
+
+    <dependencies>
+
+        <!-- Servlet -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- JSP -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Univyz Framework -->
+        <dependency>
+            <groupId>cn.univyz</groupId>
+            <artifactId>univyz-framework</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+        <!-- Shiro -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-web</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+    </dependencies>
 
 </project>
